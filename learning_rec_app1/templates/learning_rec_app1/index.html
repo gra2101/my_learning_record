@@ -1,0 +1,11 @@
+{%  extends "learning_rec_app1/base.html"  %}
+
+{% block page_header %}
+<div class="jumbotron">
+ <h1 class="display-3">Record What You Learn.</h1>
+<p class="lead">Make your own Learning Record, and keep a list of the
+ topics you're learning about. Whenever you learn something new, make an entry summarizing what you've learned.</p>
+<a class="btn btn-lg btn-primary" href="{% url 'users_app:register' %}"
+ role="button">Register &raquo;</a>
+ </div>
+{% endblock page_header %}
