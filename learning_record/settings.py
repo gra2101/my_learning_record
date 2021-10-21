@@ -34,11 +34,8 @@ INSTALLED_APPS = [
     #my_apps
     'learning_rec_app1',
     'users_app',
-
     #third party apps
-    #'bootstrap4',
-    'crispy_forms',
-    
+    'bootstrap4',
     #default apps
     'django.contrib.admin',
     'django.contrib.auth',
@@ -141,4 +138,3 @@ LOGIN_URL = 'users_app:login'
 import django_heroku
 django_heroku.settings(locals())
 
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
